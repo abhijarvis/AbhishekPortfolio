@@ -21,7 +21,7 @@ function App() {
       </main>
       <footer className="bg-purple-900 dark:bg-gray-800 text-white py-6">
         <div className="container mx-auto px-6 text-center">
-          <p>© {currentYear} Debika Basu. All Rights Reserved.</p>
+          <p>© {currentYear} Abhishek Pandit. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
