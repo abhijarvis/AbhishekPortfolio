@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, FileDown } from 'lucide-react';
+import { Github, Linkedin,Twitter,FileDown } from 'lucide-react';
 import { ThemeToggle } from './ui/ThemeToggle';
 import resume from '../public/Abhishek_Pandit_Resume.pdf';
 import logo from '../public/Up-pic.png';
@@ -75,7 +75,7 @@ export const Header = () => {
               whileHover={{ scale: 1.1 }}
               className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
             >
-              <Github size={20} />
+              <Github size={30} />
             </motion.a>
             <motion.a
               href="https://www.linkedin.com/in/abhishek-pandit-2a377a126/"
@@ -84,7 +84,16 @@ export const Header = () => {
               whileHover={{ scale: 1.1 }}
               className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
             >
-              <Linkedin size={20} />
+              <Linkedin size={30} />
+            </motion.a>
+            <motion.a
+              href="https://x.com/ABHISHEKPA0508"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.1 }}
+              className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+            >
+              <Twitter size={30} />
             </motion.a>
             <motion.a
               id='resume-download'
