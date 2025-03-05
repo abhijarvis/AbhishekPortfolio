@@ -1,8 +1,20 @@
 {
   "name": "vite-react-typescript-starter",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "homepage": "https://github.com/abhijarvis/AbhishekPortfolio#readme",
+  "bugs": {
+    "url": "https://github.com/abhijarvis/AbhishekPortfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhijarvis/AbhishekPortfolio.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -82,7 +82,7 @@ export const Hero = () => {
                 />
                 <img
                   src={picofme}
-                  alt="Debika Basu"
+                  alt="Abhishek Pandit"
                   className="rounded-full relative z-10 w-full max-w-md mx-auto shadow-2xl mt-[-128px] sm:hidden lg:block"
                 />
               </div>
