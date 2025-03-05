@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Github, Linkedin, FileDown } from 'lucide-react';
 import { ThemeToggle } from './ui/ThemeToggle';
-import resume from '../public/Debika_Basu.pdf';
+import resume from '../public/Abhishek_Pandit_Resume.pdf';
 import logo from '../public/Up-pic.png';
 
 export const Header = () => {
@@ -27,7 +27,7 @@ export const Header = () => {
             whileHover={{ scale: 1.05 }}
           >
             {/* Show the name only on larger screens */}
-            <span className="hidden lg:block">Debika Basu</span>
+            <span className="hidden lg:block">Abhishek Pandit</span>
 
             {/* Show the logo on smaller screens (phones and tablets) */}
             <img
@@ -69,7 +69,7 @@ export const Header = () => {
           <div className="flex items-center gap-4">
             <ThemeToggle />
             <motion.a
-              href="https://github.com/DebikaBasu"
+              href="https://github.com/abhijarvis"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1 }}
@@ -78,7 +78,7 @@ export const Header = () => {
               <Github size={20} />
             </motion.a>
             <motion.a
-              href="https://www.linkedin.com/in/debikabasu"
+              href="https://www.linkedin.com/in/abhishek-pandit-2a377a126/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1 }}
@@ -89,7 +89,7 @@ export const Header = () => {
             <motion.a
               id='resume-download'
               href={resume}
-              download="Debika_Basu_Resume.pdf"
+              download="Abhishek_Pandit_Resume.pdf"
               whileHover={{ scale: 1.05 }}
               className="flex hidden sm:flex items-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 dark:from-purple-500 dark:to-pink-500 text-white px-4 py-2 rounded-full shadow-lg hover:shadow-xl transition-shadow"
             >

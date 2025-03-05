@@ -3,7 +3,7 @@ import { ArrowRight, Sparkles } from 'lucide-react';
 import { AnimatedText } from './AnimatedText';
 import { TechStack } from './TechStack';
 import { FileDown } from 'lucide-react';
-import resume from '../../public/Debika_Basu.pdf';
+import resume from '../../public/Abhishek_Pandit_Resume.pdf';
 import picofme from '../../public/Up-pic.png';
 
 export const Hero = () => {

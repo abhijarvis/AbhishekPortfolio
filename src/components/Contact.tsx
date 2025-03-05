@@ -31,7 +31,7 @@ export const Contact = () => {
               </div>
               <div>
                 <h4 className="font-medium text-gray-900 dark:text-white">Email</h4>
-                <p className="text-gray-600 dark:text-gray-400">debika.connect@gmail.com</p>
+                <p className="text-gray-600 dark:text-gray-400">abhishekpandit740@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center gap-4 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
@@ -40,7 +40,7 @@ export const Contact = () => {
               </div>
               <div>
                 <h4 className="font-medium text-gray-900 dark:text-white">Phone</h4>
-                <p className="text-gray-600 dark:text-gray-400">+91 6291043389</p>
+                <p className="text-gray-600 dark:text-gray-400">+91 8709167947</p>
               </div>
             </div>
             <div className="flex items-center gap-4 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
@@ -49,7 +49,7 @@ export const Contact = () => {
               </div>
               <div>
                 <h4 className="font-medium text-gray-900 dark:text-white">Location</h4>
-                <p className="text-gray-600 dark:text-gray-400">Kolkata, India</p>
+                <p className="text-gray-600 dark:text-gray-400">Bengaluru, India</p>
               </div>
             </div>
           </motion.div>
