@@ -21,8 +21,8 @@ const floatingVariants = (duration:number) => ({
 export const TechStack = () => {
   const technologies = [
     { name: 'C', icon: <RiReactjsLine className="text-5xl text-cyan-400" />, delay: 3 },
-    { name: 'JavaScript', icon: <FaJs className="text-5xl text-yellow-400" />, delay: 3.5 },
-    { name: 'Tailwind', icon: <RiTailwindCssFill className="text-5xl text-blue-500" />, delay: 4 },
+    { name: 'C++', icon: <FaJs className="text-5xl text-yellow-400" />, delay: 3.5 },
+    { name: 'Python', icon: <RiTailwindCssFill className="text-5xl text-blue-500" />, delay: 4 },
     { name: 'Node.js', icon: <FaNodeJs className="text-5xl text-green-500" />, delay: 3 },
     { name: 'MySQL', icon: <SiMysql className="text-5xl text-blue-600" />, delay: 4.5 },
     { name: 'Java', icon: <FaJava className="text-5xl text-orange-400" />, delay: 3.5 },
