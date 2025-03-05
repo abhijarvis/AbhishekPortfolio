@@ -40,7 +40,7 @@ export const Contact = () => {
               </div>
               <div>
                 <h4 className="font-medium text-gray-900 dark:text-white">Phone</h4>
-                <p className="text-gray-600 dark:text-gray-400">+91 8709167947</p>
+                <p className="text-gray-600 dark:text-gray-400">+91  8709167947</p>
               </div>
             </div>
             <div className="flex items-center gap-4 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
